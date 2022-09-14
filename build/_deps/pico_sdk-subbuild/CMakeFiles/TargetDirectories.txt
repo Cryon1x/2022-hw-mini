@@ -1,0 +1,3 @@
+/home/vikrant/Dropbox/git/2022-hw-mini/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate.dir
+/home/vikrant/Dropbox/git/2022-hw-mini/build/_deps/pico_sdk-subbuild/CMakeFiles/edit_cache.dir
+/home/vikrant/Dropbox/git/2022-hw-mini/build/_deps/pico_sdk-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/CMakeFiles/PioasmBuild
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/CMakeFiles/PioasmBuild.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/CMakeFiles/PioasmBuild-complete.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/vikrant/Dropbox/git/2022-hw-mini/build/src/pio/addition/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
