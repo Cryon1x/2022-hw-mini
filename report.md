@@ -2,4 +2,4 @@ The pwm fade example LED intensity v. time was a sinusoidal wave with period abo
 
 We modified the pwm brightness pulse by quadrupling the speed of the increase in intensity and leaving the speed of the intensity decrease unchanged. This gives it the effect of an "alarm" that quickly "charges" up and then more slowly decreases in intensity. This has the overall effect of keeping the average intensity the same, but reduced the period.
 
-
+We feel that we were successful in achieving this "alarm" effect in the LED example, since the output intensity v time wave is the same as what we had in mind.
