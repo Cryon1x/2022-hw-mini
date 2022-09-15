@@ -1068,9 +1068,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x1f CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccSNeop8.o
- .data          0x0000000000000000        0x0 /tmp/ccSNeop8.o
- .bss           0x0000000000000000        0x0 /tmp/ccSNeop8.o
+ .text          0x0000000000000000        0x0 /tmp/ccIIF3x8.o
+ .data          0x0000000000000000        0x0 /tmp/ccIIF3x8.o
+ .bss           0x0000000000000000        0x0 /tmp/ccIIF3x8.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1427,11 +1427,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccSNeop8.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccIIF3x8.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x1b80
+.text           0x0000000010000100     0x1b88
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1495,189 +1495,188 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  .text.frame_dummy
                 0x00000000100002c4       0x20 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
  .text.on_pwm_wrap
-                0x00000000100002e4       0x5c CMakeFiles/pwm_led_fade.dir/pwm_led_fade.c.obj
+                0x00000000100002e4       0x68 CMakeFiles/pwm_led_fade.dir/pwm_led_fade.c.obj
                 0x00000000100002e4                on_pwm_wrap
  .text.startup.main
-                0x0000000010000340       0x4c CMakeFiles/pwm_led_fade.dir/pwm_led_fade.c.obj
-                0x0000000010000340                main
+                0x000000001000034c       0x4c CMakeFiles/pwm_led_fade.dir/pwm_led_fade.c.obj
+                0x000000001000034c                main
  .text.gpio_set_function
-                0x000000001000038c       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000038c                gpio_set_function
+                0x0000000010000398       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000398                gpio_set_function
  .text.hw_claim_or_assert
-                0x00000000100003bc       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100003bc                hw_claim_or_assert
+                0x00000000100003c8       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100003c8                hw_claim_or_assert
  .text.running_on_fpga
-                0x0000000010000400       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000400                running_on_fpga
+                0x000000001000040c       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_platform/platform.c.obj
+                0x000000001000040c                running_on_fpga
  .text.spin_locks_reset
-                0x0000000010000410       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000410                spin_locks_reset
+                0x000000001000041c       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000041c                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x000000001000042c       0x18 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
-                0x000000001000042c                next_striped_spin_lock_num
+                0x0000000010000438       0x18 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000438                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x0000000010000444       0x24 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000444                irq_set_enabled
+                0x0000000010000450       0x24 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000450                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x0000000010000468       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000468                irq_get_vtable_handler
+                0x0000000010000474       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000474                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010000478       0x54 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000478                irq_set_exclusive_handler
+                0x0000000010000484       0x54 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000484                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x00000000100004cc      0x1cc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100004cc                irq_remove_handler
+                0x00000000100004d8      0x1cc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100004d8                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000698       0xb4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000698                irq_add_tail_to_free_list
+                0x00000000100006a4       0xb4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006a4                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x000000001000074c       0x24 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000074c                irq_init_priorities
+                0x0000000010000758       0x24 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000758                irq_init_priorities
  .text.lock_init
-                0x0000000010000770       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000770                lock_init
+                0x000000001000077c       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/lock_core.c.obj
+                0x000000001000077c                lock_init
  .text.timer_pool_entry_comparator
-                0x0000000010000780       0x34 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
-                0x0000000010000780                timer_pool_entry_comparator
+                0x000000001000078c       0x34 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x000000001000078c                timer_pool_entry_comparator
  .text.add_alarm_under_lock.isra.0
-                0x00000000100007b4       0xf8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x00000000100007c0       0xf8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100008ac      0x1c4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x00000000100008b8      0x1c4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000a70       0x64 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
-                0x0000000010000a70                alarm_pool_init_default
+                0x0000000010000a7c       0x64 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x0000000010000a7c                alarm_pool_init_default
  .text.hardware_alarm_irq_handler
-                0x0000000010000ad4       0xb8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000ae0       0xb8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000b8c       0x18 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000b8c                hardware_alarm_claim
+                0x0000000010000b98       0x18 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000b98                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000ba4       0x14 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000ba4                time_us_64
+                0x0000000010000bb0       0x14 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000bb0                time_us_64
  .text.hardware_alarm_set_callback
-                0x0000000010000bb8       0x8c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000bb8                hardware_alarm_set_callback
+                0x0000000010000bc4       0x8c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000bc4                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010000c44       0xdc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000c44                hardware_alarm_set_target
+                0x0000000010000c50       0xdc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000c50                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010000d20       0x3c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000d20                hardware_alarm_cancel
+                0x0000000010000d2c       0x3c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000d2c                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010000d5c       0x58 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x0000000010000d68       0x58 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010000db4       0x3c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
-                0x0000000010000db4                ph_post_alloc_init
+                0x0000000010000dc0       0x3c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x0000000010000dc0                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010000df0       0x8c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
-                0x0000000010000df0                ph_merge_two_pass
+                0x0000000010000dfc       0x8c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x0000000010000dfc                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010000e7c      0x12c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x0000000010000e88      0x12c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010000fa8      0x130 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
-                0x0000000010000fa8                ph_remove_head
+                0x0000000010000fb4      0x130 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x0000000010000fb4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100010d8       0x78 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
-                0x00000000100010d8                ph_remove_and_free_node
+                0x00000000100010e4       0x78 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x00000000100010e4                ph_remove_and_free_node
  .text.mutex_init
-                0x0000000010001150       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
-                0x0000000010001150                mutex_init
+                0x000000001000115c       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+                0x000000001000115c                mutex_init
  .text.recursive_mutex_init
-                0x000000001000116c       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
-                0x000000001000116c                recursive_mutex_init
+                0x0000000010001178       0x1c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+                0x0000000010001178                recursive_mutex_init
  .text.runtime_init
-                0x0000000010001188       0xec CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001188                runtime_init
- .text.exit     0x0000000010001274        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001274                exit
- .text.panic    0x0000000010001278       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001278                panic
+                0x0000000010001194       0xec CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001194                runtime_init
+ .text.exit     0x0000000010001280        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001280                exit
+ .text.panic    0x0000000010001284       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001284                panic
  .text.hard_assertion_failure
-                0x00000000100012a8        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100012a8                hard_assertion_failure
+                0x00000000100012b4        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100012b4                hard_assertion_failure
  .text.clocks_init
-                0x00000000100012b4      0x2b4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100012b4                clocks_init
+                0x00000000100012c0      0x2b4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100012c0                clocks_init
  .text.pll_init
-                0x0000000010001568       0xa8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001568                pll_init
+                0x0000000010001574       0xa8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001574                pll_init
  .text.watchdog_start_tick
-                0x0000000010001610       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001610                watchdog_start_tick
+                0x000000001000161c       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000000001000161c                watchdog_start_tick
  .text.xosc_init
-                0x0000000010001620       0x28 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001620                xosc_init
+                0x000000001000162c       0x28 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000000001000162c                xosc_init
  .text._out_char
-                0x0000000010001648       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001654       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x0000000010001658       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010001658                weak_raw_vprintf
- .text          0x0000000010001688       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010001664       0x30 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001664                weak_raw_vprintf
+ .text          0x0000000010001694       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010001698       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001698                rom_func_lookup
+                0x00000000100016a4       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100016a4                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100016a8       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100016a8                rom_data_lookup
+                0x00000000100016b4       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100016b4                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100016b8       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100016b8                rom_funcs_lookup
+                0x00000000100016c4       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100016c4                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x00000000100016fc       0x4c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100016fc                __wrap___aeabi_uidiv
-                0x00000000100016fc                __wrap___aeabi_uidivmod
-                0x00000000100016fc                div_u32u32
-                0x00000000100016fc                divmod_u32u32
-                0x0000000010001704                divmod_u32u32_unsafe
-                0x000000001000172c                divmod_u32u32_savestate
+                0x0000000010001708       0x4c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010001708                __wrap___aeabi_uidiv
+                0x0000000010001708                __wrap___aeabi_uidivmod
+                0x0000000010001708                div_u32u32
+                0x0000000010001708                divmod_u32u32
+                0x0000000010001710                divmod_u32u32_unsafe
+                0x0000000010001738                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x0000000010001748       0x98 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010001748                __aeabi_double_init
+                0x0000000010001754       0x98 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001754                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x00000000100017e0       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100017e0                double_table_shim_on_use_helper
+                0x00000000100017ec       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100017ec                double_table_shim_on_use_helper
  .text.__aeabi_float_init
-                0x000000001000180c       0x64 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x000000001000180c                __aeabi_float_init
+                0x0000000010001818       0x64 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001818                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010001870       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010001870                float_table_shim_on_use_helper
- .text          0x000000001000189c       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x000000001000189c                __aeabi_mem_init
- .text.memcpy   0x00000000100018ac        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100018ac                __wrap___aeabi_memcpy
-                0x00000000100018ac                __wrap_memcpy
+                0x000000001000187c       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x000000001000187c                float_table_shim_on_use_helper
+ .text          0x00000000100018a8       0x10 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100018a8                __aeabi_mem_init
+ .text.memcpy   0x00000000100018b8        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100018b8                __wrap___aeabi_memcpy
+                0x00000000100018b8                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x00000000100018b8       0x94 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100018c4       0x94 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x000000001000194c       0xa4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000194c                __wrap_putchar
+                0x0000000010001958       0xa4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001958                __wrap_putchar
  .text.__wrap_puts
-                0x00000000100019f0       0xe8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100019f0                __wrap_puts
- .text.atexit   0x0000000010001ad8       0x10 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
-                0x0000000010001ad8                atexit
+                0x00000000100019fc       0xe8 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100019fc                __wrap_puts
+ .text.atexit   0x0000000010001ae4       0x10 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
+                0x0000000010001ae4                atexit
  .text.__libc_fini_array
-                0x0000000010001ae8       0x28 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fini.o)
-                0x0000000010001ae8                __libc_fini_array
- .text.strlen   0x0000000010001b10       0x5c /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010001b10                strlen
+                0x0000000010001af4       0x28 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-fini.o)
+                0x0000000010001af4                __libc_fini_array
+ .text.strlen   0x0000000010001b1c       0x5c /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010001b1c                strlen
  .text.__register_exitproc
-                0x0000000010001b6c       0xac /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__atexit.o)
-                0x0000000010001b6c                __register_exitproc
+                0x0000000010001b78       0xac /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__atexit.o)
+                0x0000000010001b78                __register_exitproc
  .text.startup.register_fini
-                0x0000000010001c18       0x18 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__call_atexit.o)
+                0x0000000010001c24       0x18 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-__call_atexit.o)
  .text.__retarget_lock_acquire_recursive
-                0x0000000010001c30        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000010001c30                __retarget_lock_acquire_recursive
+                0x0000000010001c3c        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000010001c3c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000010001c34        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000010001c34                __retarget_lock_release_recursive
+                0x0000000010001c40        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000010001c40                __retarget_lock_release_recursive
  *(.fini)
- .fini          0x0000000010001c38        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crti.o
-                0x0000000010001c38                _fini
- *fill*         0x0000000010001c3c        0x4 
- .fini.__stub   0x0000000010001c40       0x40 linker stubs
+ .fini          0x0000000010001c44        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crti.o
+                0x0000000010001c44                _fini
+ .fini.__stub   0x0000000010001c48       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1689,85 +1688,85 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010001c80        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010001c80                . = ALIGN (0x4)
+ .eh_frame      0x0000000010001c88        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010001c88                . = ALIGN (0x4)
 
-.glue_7         0x0000000010001c80        0x0
- .glue_7        0x0000000010001c80        0x0 linker stubs
+.glue_7         0x0000000010001c88        0x0
+ .glue_7        0x0000000010001c88        0x0 linker stubs
 
-.glue_7t        0x0000000010001c80        0x0
- .glue_7t       0x0000000010001c80        0x0 linker stubs
+.glue_7t        0x0000000010001c88        0x0
+ .glue_7t       0x0000000010001c88        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010001c80        0x0
- .vfp11_veneer  0x0000000010001c80        0x0 linker stubs
+.vfp11_veneer   0x0000000010001c88        0x0
+ .vfp11_veneer  0x0000000010001c88        0x0 linker stubs
 
-.v4_bx          0x0000000010001c80        0x0
- .v4_bx         0x0000000010001c80        0x0 linker stubs
+.v4_bx          0x0000000010001c88        0x0
+ .v4_bx         0x0000000010001c88        0x0 linker stubs
 
-.iplt           0x0000000010001c80        0x0
- .iplt          0x0000000010001c80        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010001c88        0x0
+ .iplt          0x0000000010001c88        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010001c80       0xb4
+.rodata         0x0000000010001c88       0xb4
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010001c80       0x22 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010001ca2        0x2 
+                0x0000000010001c88       0x22 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010001caa        0x2 
  .rodata.panic.str1.4
-                0x0000000010001ca4       0x12 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010001cb6        0x2 
+                0x0000000010001cac       0x12 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010001cbe        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010001cb8        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001cc0        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x0000000010001cc4       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001ccc       0x44 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010001d08        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001d10        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010001d14        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001d1c        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010001d20        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001d28        0xc CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010001d2c        0x2 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010001d2e        0x2 
+                0x0000000010001d34        0x2 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010001d36        0x2 
  .rodata._global_impure_ptr
-                0x0000000010001d30        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
-                0x0000000010001d30                _global_impure_ptr
-                0x0000000010001d34                . = ALIGN (0x4)
+                0x0000000010001d38        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-impure.o)
+                0x0000000010001d38                _global_impure_ptr
+                0x0000000010001d3c                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010001d34                . = ALIGN (0x4)
+                0x0000000010001d3c                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010001d34        0x0
- .rel.iplt      0x0000000010001d34        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010001d3c        0x0
+ .rel.iplt      0x0000000010001d3c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010001d34                __exidx_start = .
+                0x0000000010001d3c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010001d34                __exidx_end = .
-                0x0000000010001d34                . = ALIGN (0x4)
-                0x0000000010001d34                __binary_info_start = .
+                0x0000000010001d3c                __exidx_end = .
+                0x0000000010001d3c                . = ALIGN (0x4)
+                0x0000000010001d3c                __binary_info_start = .
 
-.binary_info    0x0000000010001d34       0x1c
+.binary_info    0x0000000010001d3c       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x0000000010001d34        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
-                0x0000000010001d38        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
                 0x0000000010001d3c        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr75
                 0x0000000010001d40        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
+ .binary_info.keep.__bi_ptr50
                 0x0000000010001d44        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
+ .binary_info.keep.__bi_ptr44
                 0x0000000010001d48        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr22
+ .binary_info.keep.__bi_ptr38
                 0x0000000010001d4c        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr30
+                0x0000000010001d50        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr22
+                0x0000000010001d54        0x4 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010001d50                __binary_info_end = .
-                0x0000000010001d50                . = ALIGN (0x4)
-                0x0000000010001d50                __etext = .
+                0x0000000010001d58                __binary_info_end = .
+                0x0000000010001d58                . = ALIGN (0x4)
+                0x0000000010001d58                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -1776,7 +1775,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x0000000020000000       0xc0 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x59c load address 0x0000000010001d50
+.data           0x00000000200000c0      0x59c load address 0x0000000010001d58
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1862,27 +1861,27 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x000000002000065c                . = ALIGN (0x4)
                 0x000000002000065c                __data_end__ = .
 
-.igot.plt       0x000000002000065c        0x0 load address 0x00000000100022ec
+.igot.plt       0x000000002000065c        0x0 load address 0x00000000100022f4
  .igot.plt      0x000000002000065c        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000065c        0x0 load address 0x00000000100022ec
+                0x000000002000065c        0x0 load address 0x00000000100022f4
                 0x000000002000065c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100022ec
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100022f4
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100022ec                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100022f4                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100022ec
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100022f4
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100022ec                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100022f4                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000660      0x3d0
                 0x0000000020000660                . = ALIGN (0x4)
@@ -1944,8 +1943,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100022ec        0x0
-                0x00000000100022ec                __flash_binary_end = .
+.flash_end      0x00000000100022f4        0x0
+                0x00000000100022f4                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2000,7 +1999,7 @@ LOAD CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico
 LOAD CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/ccSNeop8.o
+LOAD /tmp/ccIIF3x8.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2086,7 +2085,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000518       0x2c CMakeFiles/pwm_led_fade.dir/__/__/__/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x0000000000000544       0x22 /tmp/ccSNeop8.o
+                0x0000000000000544       0x22 /tmp/ccIIF3x8.o
  .ARM.attributes
                 0x0000000000000566       0x1e /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
