@@ -27,6 +27,12 @@ void on_pwm_wrap() {
 // this is the interrupt handler, called each time the PWM counter wraps
     static uint16_t fade = 0;
     static bool going_up = true;
+
+    // make the downward part of the LED fade go in more discrete steps, but
+    // at the same rate.
+    static uint8_t downTimer = 0;
+    const uint8_t downStep = 16;
+
     // Clear the interrupt flag that brought us here
     pwm_clear_irq(pwm_gpio_to_slice_num(PICO_DEFAULT_LED_PIN));
 
@@ -37,7 +43,12 @@ void on_pwm_wrap() {
             going_up = false;
         }
     } else {
-        --fade;
+        ++downTimer;
+        if (downTimer >= downStep)
+        {
+            downTimer = 0
+            fade -=downStep;
+        }
         if (fade < MIN_LED_BRIGHTNESS) {
             fade = MIN_LED_BRIGHTNESS;
             going_up = true;
